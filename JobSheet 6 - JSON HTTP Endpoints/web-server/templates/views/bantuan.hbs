@@ -1,0 +1,32 @@
+<html>
+  {{> head title="Halaman Bantuan"}}
+  <body>
+    <div class="main-content help-page">
+      {{> header}}
+
+      <section class="faq-section">
+        <h2 text-align="center">Frequently Asked Questions (FAQ)</h2>
+        <ul class="faq-list">
+          <li>
+            <h3>Bagaimana cara menggunakan aplikasi ini?</h3>
+            <p>Ketik nama kota atau lokasi pada kolom pencarian di halaman utama, lalu tekan tombol “Cari”. Cuaca akan ditampilkan secara otomatis.</p>
+          </li>
+          <li>
+            <h3>Data cuaca ini berasal dari mana?</h3>
+            <p>Data diambil secara real-time dari layanan <strong>Weatherstack API</strong> yang menyediakan informasi cuaca global.</p>
+          </li>
+          <li>
+            <h3>Mengapa hasil pencarian kadang tidak muncul?</h3>
+            <p>Hal ini bisa terjadi jika lokasi tidak ditemukan atau koneksi ke API bermasalah. Cobalah nama kota yang lain.</p>
+          </li>
+          <li>
+            <h3>Apakah aplikasi ini gratis digunakan?</h3>
+            <p>Ya, aplikasi ini sepenuhnya gratis dan dibuat untuk tujuan pembelajaran.</p>
+          </li>
+        </ul>
+      </section>
+
+    </div>
+    {{> footer}}
+  </body>
+</html>

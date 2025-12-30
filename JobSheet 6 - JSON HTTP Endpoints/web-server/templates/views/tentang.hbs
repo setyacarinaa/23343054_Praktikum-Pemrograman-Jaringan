@@ -1,0 +1,33 @@
+<html>
+  {{> head title="Tentang Aplikasi Cek Cuaca"}}
+  <body>
+    <div class="main-content about-page">
+      {{> header}}
+
+      <section class="about-section">
+        <img class="portrait" src="/img/profil.png" alt="Foto Profil Pengembang" />
+        <div class="about-text">
+          <h2>Tentang Aplikasi</h2>
+          <p>
+            Aplikasi ini dibuat untuk memudahkan pengguna mengetahui kondisi cuaca di berbagai lokasi secara cepat dan akurat. 
+            Dengan memanfaatkan API dari <strong>Mapbox</strong> dan <strong>Weatherstack</strong>, pengguna hanya perlu mengetikkan nama kota untuk memperoleh prediksi cuaca terkini.
+          </p>
+
+          <h2>Tentang Pengembang</h2>
+          <p>
+            Halo! Saya <strong>Ridho Hamdani Putra</strong>, mahasiswa yang sedang mempelajari 
+            <em>Pemrograman Berbasis Jaringan menggunakan Node.js</em>. 
+            Proyek ini dikembangkan sebagai bagian dari praktikum untuk memahami cara kerja <code>JSON HTTP Endpoints</code> dan integrasi API eksternal.
+          </p>
+
+          <div class="contact-info">
+            <p><strong>Email:</strong> ridhohamdaniputra@gmail.com</p>
+            <p><strong>GitHub:</strong> https://github.com/RidhoHamdaniPutra</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    {{> footer}}
+  </body>
+</html>

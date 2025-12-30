@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  },
+  "scripts": {
+    "dev": "node src/index.js"
+  }
+}
