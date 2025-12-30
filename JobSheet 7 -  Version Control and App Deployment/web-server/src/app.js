@@ -30,7 +30,7 @@ app.use(express.static(directoryPublic));
 app.get("", (req, res) => {
   res.render("index", {
     judul: "Aplikasi Cek Cuaca",
-    nama: "Ridho Hamdani Putra",
+    nama: "Setya Carina Rianti",
   });
 });
 
@@ -39,7 +39,7 @@ app.get("/bantuan", (req, res) => {
   res.render("bantuan", {
     judul: "Bantuan",
     teksBantuan: "Ini adalah teks bantuan",
-    nama: "Ridho Hamdani Putra",
+    nama: "Setya Carina Rianti",
   });
 });
 
@@ -47,7 +47,7 @@ app.get("/bantuan", (req, res) => {
 app.get("/tentang", (req, res) => {
   res.render("tentang", {
     judul: "Tentang Saya",
-    nama: "Ridho Hamdani Putra",
+    nama: "Setya Carina Rianti",
   });
 });
 
@@ -84,7 +84,7 @@ app.get("/berita", (req, res) => {
     if (error) {
       return res.render("berita", {
         judul: "Berita Terkini",
-        nama: "Ridho Hamdani Putra",
+        nama: "Setya Carina Rianti",
         news: null,
         pesanError: error,
         keyword,
@@ -94,7 +94,7 @@ app.get("/berita", (req, res) => {
 
     res.render("berita", {
       judul: "Berita Terkini",
-      nama: "Ridho Hamdani Putra",
+      nama: "Setya Carina Rianti",
       news: dataBerita,
       keyword,
       category
@@ -106,7 +106,7 @@ app.get("/berita", (req, res) => {
 app.get("/bantuan/tes", (req, res) => {
   res.render("404", {
     judul: "404",
-    nama: "Ridho Hamdani Putra",
+    nama: "Setya Carina Rianti",
     pesanKesalahan: "Artikel yang dicari tidak ditemukan",
   });
 });
@@ -114,7 +114,7 @@ app.get("/bantuan/tes", (req, res) => {
 app.get("/tes", (req, res) => {
   res.render("404", {
     judul: "404",
-    nama: "Ridho Hamdani Putra",
+    nama: "Setya Carina Rianti",
     pesanKesalahan: "Halaman Tidak Ditemukan",
   });
 });
